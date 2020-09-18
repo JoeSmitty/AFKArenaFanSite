@@ -1,0 +1,76 @@
+.image-size {
+  width: 1300px;
+  margin: 17px
+
+}
+
+.logo-size {
+  width: 300px
+}
+
+.image-width {
+  width: 100px
+}
+
+.footer-image{
+  width: 50px
+}
+
+.outer-div {
+border: 5px double #0a444b;
+  background-color: #a2f86f;
+  border-radius: 15px;
+  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-div {
+  border: 5px double darkgreen;
+  background-color: #ead0a8;
+  border-radius: 5px;
+    width: 135px;
+    margin: 5%;
+}
+
+.table, .th, .td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  display: flex;
+}
+th, td {
+  padding: 15px;
+  flex: auto;
+}
+th {
+  text-align: center;
+}
+table {
+  border-spacing: 5px;
+}
+
+h1 {
+  text-align: center;
+  font: sail;
+  font-style: italic;
+  font-size: 40pt;
+}
+
+body {
+  background-color: #ead0a8
+}
+
+p {
+  font-size: 30pt;
+  font-style: italic;
+}
+
+li {
+  font-style: italic;
+  font-size: 20pt;
+}
+
+@font-face {
+  font-family: Sail;
+  src: url(Sail-Regular.ttf);
+}
